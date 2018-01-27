@@ -1,0 +1,21 @@
+		    <div id="page-footer-wrapper">
+		      <div id="page-footer">
+		        {.section website}
+		          {.if socialAccounts}
+							<div id="sqs-social"class="social-links sqs-svg-icon--list" data-content-field="connected-accounts">
+								{@|apply sqs-social-links}
+							</div>
+		          {.end}
+		        {.end}
+		        <squarespace:block-field id="footer-blocks" columns="12" label="Footer Content" />
+		      </div>
+		    </div><!-- page-footer-wrapper -->
+
+
+		  </div>
+		</div> <!-- canvas-wrapper -->
+
+		{squarespace-footers}
+
+	</body>
+</html>
